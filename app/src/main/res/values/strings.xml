@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="help_text">Click Browse button and select .txt file</string>
+    <string name="browse_button_text">Browse</string>
+</resources>
