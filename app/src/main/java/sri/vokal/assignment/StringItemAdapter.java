@@ -66,7 +66,7 @@ public class StringItemAdapter extends BaseAdapter {
             holder = (ViewHolder) view.getTag();
         }
 
-        holder.row.setText(getItem(i).item);
+        holder.row.setText(getItem(i).toString());
 
         return view;
     }

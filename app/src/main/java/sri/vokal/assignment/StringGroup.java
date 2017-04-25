@@ -36,7 +36,11 @@ public class StringGroup implements Comparable<StringGroup> {
         public int type = TYPE_CHILD;
 
         public String toString() {
-            return item + " (" + count + ")";
+            if (type == TYPE_HEADER) {
+                return item;
+            } else {
+                return item + " (" + count + ")";
+            }
         }
 
         @Override
